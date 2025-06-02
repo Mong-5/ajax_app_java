@@ -33,6 +33,7 @@ function post (){
       const formText = document.getElementById("content");
       list.insertAdjacentHTML("afterend", buildHTML(XHR));
       formText.value = "";
+      
     };
   });
 };
